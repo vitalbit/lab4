@@ -3,3 +3,8 @@ C:\Users\Виталий\Documents\Visual Studio 2010\Projects\TPlab4\TPlab4\bin\
 C:\Users\Виталий\Documents\Visual Studio 2010\Projects\TPlab4\TPlab4\bin\Debug\TPlab4.pdb
 C:\Users\Виталий\Documents\Visual Studio 2010\Projects\TPlab4\TPlab4\obj\x86\Debug\TPlab4.exe
 C:\Users\Виталий\Documents\Visual Studio 2010\Projects\TPlab4\TPlab4\obj\x86\Debug\TPlab4.pdb
+D:\forgit\TPlab4\TPlab4\TPlab4\obj\x86\Debug\TPlab4.exe
+D:\forgit\TPlab4\TPlab4\TPlab4\obj\x86\Debug\TPlab4.pdb
+D:\forgit\TPlab4\TPlab4\TPlab4\bin\Debug\TPlab4.exe
+D:\forgit\TPlab4\TPlab4\TPlab4\bin\Debug\TPlab4.pdb
+D:\forgit\TPlab4\TPlab4\TPlab4\obj\x86\Debug\ResolveAssemblyReference.cache

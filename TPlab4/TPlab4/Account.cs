@@ -91,5 +91,13 @@ namespace TPlab4
             }
             else return 0;
         }
+        /// <summary>
+        /// add money to the account
+        /// </summary>
+        /// <param name="amount">amount of money</param>
+        public virtual void addMoney(double amount)
+        {
+            balance += amount;
+        }
     }
 }
