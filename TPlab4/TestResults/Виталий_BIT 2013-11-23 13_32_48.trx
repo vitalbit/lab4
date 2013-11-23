@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d16dea96-0e30-42fe-9a34-4eaf4036a82e" name="Виталий@BIT 2013-11-23 13:32:48" runUser="BIT\Виталий" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="43e8f2e4-915d-42ee-9caa-1579fa5403cf">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Виталий_BIT 2013-11-23 13_32_48">
+      <DeploymentItem filename="D:\forgit\TPlab4\TPlab4\TPlab4\bin\Debug\TPlab4.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-23T13:32:48.2821504+03:00" queuing="2013-11-23T13:32:48.4941625+03:00" start="2013-11-23T13:32:48.5521658+03:00" finish="2013-11-23T13:32:50.0652524+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="12" executed="12" passed="12" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestTakeMoneyPercent" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="2cb3dac5-421b-f517-e35a-2ac9cdc35e40">
+      <Execution id="d8ce5fbc-d4ea-4ce6-8f38-d6e2b327a877" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.OverdraftAccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTakeMoneyPercent" />
+    </UnitTest>
+    <UnitTest name="TestATMLogInOff" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="77936b30-9442-3998-04f5-ba329ad777f5">
+      <Execution id="2ec35bde-6d57-42d7-86e5-1a0d8b389d58" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.ATMTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestATMLogInOff" />
+    </UnitTest>
+    <UnitTest name="TestAddMoney" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="4297d39c-ba23-cf48-9be0-9e7a29dc828e">
+      <Execution id="b0661303-eede-4fd8-a74a-7a62a5083ec3" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddMoney" />
+    </UnitTest>
+    <UnitTest name="TestTakeFunds" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="bf980352-5ee3-aeef-e438-339ad2c18c5e">
+      <Execution id="c403a8d7-710b-49d4-be6c-a391ef173609" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTakeFunds" />
+    </UnitTest>
+    <UnitTest name="TestTakeZeroMoney" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="4a6e3c2a-cdff-cb44-bfce-b966fe7f4e92">
+      <Execution id="370a08b6-fd8b-4948-9502-a5669df51b69" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTakeZeroMoney" />
+    </UnitTest>
+    <UnitTest name="TestTakeFunds" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="3018a74a-aebd-e8ea-8854-914e2e810251">
+      <Execution id="e126d814-7071-4aca-a2b9-4e854af48d58" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.SavingAccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTakeFunds" />
+    </UnitTest>
+    <UnitTest name="TestTakeMoney" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="90ece50f-32a0-305a-c5ba-a5afc86a1422">
+      <Execution id="5c5e72a7-31d6-47ea-818a-4496a4668b53" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTakeMoney" />
+    </UnitTest>
+    <UnitTest name="TestDateMoney" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="15925deb-0134-a919-246b-03b0252e204b">
+      <Execution id="2e124be3-2dfc-4b74-b397-172b129a5a33" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.TimedRepaidTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDateMoney" />
+    </UnitTest>
+    <UnitTest name="TestMonthPass" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="134de63e-aad1-5759-9f27-d2edfad63ae1">
+      <Execution id="10bb6fb8-1c5b-4231-a909-cc1892bc8633" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.CheckingAccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMonthPass" />
+    </UnitTest>
+    <UnitTest name="TestInvestFundZero" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="dc03bd8b-a3d3-84c7-2cae-7cd37717ffb8">
+      <Execution id="6bcf6f5b-496c-4a2e-ac55-158992e60488" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvestFundZero" />
+    </UnitTest>
+    <UnitTest name="TestTakeZeroFunds" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="300a8941-1e3c-e6eb-656a-297884e66cdc">
+      <Execution id="49e914c2-c920-4cfa-9ad3-e3527fe07f72" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTakeZeroFunds" />
+    </UnitTest>
+    <UnitTest name="TestInvestFunds" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="aaa4be66-c77a-afaf-81fb-d8c9c03b6403">
+      <Execution id="6bebb91b-5273-4722-9640-764dd6c8f21b" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvestFunds" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="15925deb-0134-a919-246b-03b0252e204b" executionId="2e124be3-2dfc-4b74-b397-172b129a5a33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a6e3c2a-cdff-cb44-bfce-b966fe7f4e92" executionId="370a08b6-fd8b-4948-9502-a5669df51b69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="300a8941-1e3c-e6eb-656a-297884e66cdc" executionId="49e914c2-c920-4cfa-9ad3-e3527fe07f72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc03bd8b-a3d3-84c7-2cae-7cd37717ffb8" executionId="6bcf6f5b-496c-4a2e-ac55-158992e60488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4297d39c-ba23-cf48-9be0-9e7a29dc828e" executionId="b0661303-eede-4fd8-a74a-7a62a5083ec3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90ece50f-32a0-305a-c5ba-a5afc86a1422" executionId="5c5e72a7-31d6-47ea-818a-4496a4668b53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aaa4be66-c77a-afaf-81fb-d8c9c03b6403" executionId="6bebb91b-5273-4722-9640-764dd6c8f21b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf980352-5ee3-aeef-e438-339ad2c18c5e" executionId="c403a8d7-710b-49d4-be6c-a391ef173609" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="134de63e-aad1-5759-9f27-d2edfad63ae1" executionId="10bb6fb8-1c5b-4231-a909-cc1892bc8633" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77936b30-9442-3998-04f5-ba329ad777f5" executionId="2ec35bde-6d57-42d7-86e5-1a0d8b389d58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cb3dac5-421b-f517-e35a-2ac9cdc35e40" executionId="d8ce5fbc-d4ea-4ce6-8f38-d6e2b327a877" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3018a74a-aebd-e8ea-8854-914e2e810251" executionId="e126d814-7071-4aca-a2b9-4e854af48d58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2e124be3-2dfc-4b74-b397-172b129a5a33" testId="15925deb-0134-a919-246b-03b0252e204b" testName="TestDateMoney" computerName="BIT" duration="00:00:00.0554167" startTime="2013-11-23T13:32:48.5451654+03:00" endTime="2013-11-23T13:32:49.4622179+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e124be3-2dfc-4b74-b397-172b129a5a33">
+    </UnitTestResult>
+    <UnitTestResult executionId="370a08b6-fd8b-4948-9502-a5669df51b69" testId="4a6e3c2a-cdff-cb44-bfce-b966fe7f4e92" testName="TestTakeZeroMoney" computerName="BIT" duration="00:00:00.0012795" startTime="2013-11-23T13:32:49.4792188+03:00" endTime="2013-11-23T13:32:49.5122207+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="370a08b6-fd8b-4948-9502-a5669df51b69">
+    </UnitTestResult>
+    <UnitTestResult executionId="49e914c2-c920-4cfa-9ad3-e3527fe07f72" testId="300a8941-1e3c-e6eb-656a-297884e66cdc" testName="TestTakeZeroFunds" computerName="BIT" duration="00:00:00.0064711" startTime="2013-11-23T13:32:49.5362221+03:00" endTime="2013-11-23T13:32:49.5592234+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49e914c2-c920-4cfa-9ad3-e3527fe07f72">
+    </UnitTestResult>
+    <UnitTestResult executionId="6bcf6f5b-496c-4a2e-ac55-158992e60488" testId="dc03bd8b-a3d3-84c7-2cae-7cd37717ffb8" testName="TestInvestFundZero" computerName="BIT" duration="00:00:00.0021944" startTime="2013-11-23T13:32:49.5762244+03:00" endTime="2013-11-23T13:32:49.6092263+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bcf6f5b-496c-4a2e-ac55-158992e60488">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0661303-eede-4fd8-a74a-7a62a5083ec3" testId="4297d39c-ba23-cf48-9be0-9e7a29dc828e" testName="TestAddMoney" computerName="BIT" duration="00:00:00.0013505" startTime="2013-11-23T13:32:49.6222270+03:00" endTime="2013-11-23T13:32:49.6822304+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0661303-eede-4fd8-a74a-7a62a5083ec3">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c5e72a7-31d6-47ea-818a-4496a4668b53" testId="90ece50f-32a0-305a-c5ba-a5afc86a1422" testName="TestTakeMoney" computerName="BIT" duration="00:00:00.0008572" startTime="2013-11-23T13:32:49.6922310+03:00" endTime="2013-11-23T13:32:49.7172325+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c5e72a7-31d6-47ea-818a-4496a4668b53">
+    </UnitTestResult>
+    <UnitTestResult executionId="6bebb91b-5273-4722-9640-764dd6c8f21b" testId="aaa4be66-c77a-afaf-81fb-d8c9c03b6403" testName="TestInvestFunds" computerName="BIT" duration="00:00:00.0019860" startTime="2013-11-23T13:32:49.7392337+03:00" endTime="2013-11-23T13:32:49.7822362+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bebb91b-5273-4722-9640-764dd6c8f21b">
+    </UnitTestResult>
+    <UnitTestResult executionId="c403a8d7-710b-49d4-be6c-a391ef173609" testId="bf980352-5ee3-aeef-e438-339ad2c18c5e" testName="TestTakeFunds" computerName="BIT" duration="00:00:00.0017500" startTime="2013-11-23T13:32:49.7992371+03:00" endTime="2013-11-23T13:32:49.8342391+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c403a8d7-710b-49d4-be6c-a391ef173609">
+    </UnitTestResult>
+    <UnitTestResult executionId="10bb6fb8-1c5b-4231-a909-cc1892bc8633" testId="134de63e-aad1-5759-9f27-d2edfad63ae1" testName="TestMonthPass" computerName="BIT" duration="00:00:00.0034305" startTime="2013-11-23T13:32:49.8522402+03:00" endTime="2013-11-23T13:32:49.8842420+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10bb6fb8-1c5b-4231-a909-cc1892bc8633">
+    </UnitTestResult>
+    <UnitTestResult executionId="2ec35bde-6d57-42d7-86e5-1a0d8b389d58" testId="77936b30-9442-3998-04f5-ba329ad777f5" testName="TestATMLogInOff" computerName="BIT" duration="00:00:00.0111299" startTime="2013-11-23T13:32:49.8952426+03:00" endTime="2013-11-23T13:32:49.9312447+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ec35bde-6d57-42d7-86e5-1a0d8b389d58">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8ce5fbc-d4ea-4ce6-8f38-d6e2b327a877" testId="2cb3dac5-421b-f517-e35a-2ac9cdc35e40" testName="TestTakeMoneyPercent" computerName="BIT" duration="00:00:00.0020657" startTime="2013-11-23T13:32:49.9492457+03:00" endTime="2013-11-23T13:32:49.9692469+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8ce5fbc-d4ea-4ce6-8f38-d6e2b327a877">
+    </UnitTestResult>
+    <UnitTestResult executionId="e126d814-7071-4aca-a2b9-4e854af48d58" testId="3018a74a-aebd-e8ea-8854-914e2e810251" testName="TestTakeFunds" computerName="BIT" duration="00:00:00.0015100" startTime="2013-11-23T13:32:49.9832477+03:00" endTime="2013-11-23T13:32:50.0012487+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e126d814-7071-4aca-a2b9-4e854af48d58">
+    </UnitTestResult>
+  </Results>
+</TestRun>

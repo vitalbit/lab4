@@ -8,7 +8,7 @@ namespace TPlab4
     /// <summary>
     /// Class OverdraftAccount
     /// </summary>
-    class OverdraftAccount : Account
+    public class OverdraftAccount : Account
     {
         /// <summary>
         /// define overdraft account

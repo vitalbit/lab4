@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c48c4c23-76a2-4764-9140-f6abe7e81dfa" name="Виталий@BIT 2013-11-21 21:46:38" runUser="BIT\Виталий" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="43e8f2e4-915d-42ee-9caa-1579fa5403cf">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Виталий_BIT 2013-11-21 21_46_38">
+      <DeploymentItem filename="D:\forgit\TPlab4\TPlab4\TPlab4\bin\Debug\TPlab4.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-21T21:46:38.8652864+03:00" queuing="2013-11-21T21:46:38.9952938+03:00" start="2013-11-21T21:46:39.0862990+03:00" finish="2013-11-21T21:46:40.8594004+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAddMoney" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="4297d39c-ba23-cf48-9be0-9e7a29dc828e">
+      <Execution id="f8c94b8f-d2d2-403f-892c-0ca4fa5afb3a" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddMoney" />
+    </UnitTest>
+    <UnitTest name="TestInvestFunds" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="aaa4be66-c77a-afaf-81fb-d8c9c03b6403">
+      <Execution id="ffc70bba-7839-4d8f-8587-24f8e809aef7" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvestFunds" />
+    </UnitTest>
+    <UnitTest name="TestTakeMoney" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="90ece50f-32a0-305a-c5ba-a5afc86a1422">
+      <Execution id="c46dab3f-bfdf-41fc-b7fe-87ab8c6d142b" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTakeMoney" />
+    </UnitTest>
+    <UnitTest name="TestTakeFunds" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="bf980352-5ee3-aeef-e438-339ad2c18c5e">
+      <Execution id="4e39f557-7628-4d83-a0aa-68519cb02d47" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTakeFunds" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4297d39c-ba23-cf48-9be0-9e7a29dc828e" executionId="f8c94b8f-d2d2-403f-892c-0ca4fa5afb3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90ece50f-32a0-305a-c5ba-a5afc86a1422" executionId="c46dab3f-bfdf-41fc-b7fe-87ab8c6d142b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aaa4be66-c77a-afaf-81fb-d8c9c03b6403" executionId="ffc70bba-7839-4d8f-8587-24f8e809aef7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf980352-5ee3-aeef-e438-339ad2c18c5e" executionId="4e39f557-7628-4d83-a0aa-68519cb02d47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f8c94b8f-d2d2-403f-892c-0ca4fa5afb3a" testId="4297d39c-ba23-cf48-9be0-9e7a29dc828e" testName="TestAddMoney" computerName="BIT" duration="00:00:00.0883924" startTime="2013-11-21T21:46:39.1653035+03:00" endTime="2013-11-21T21:46:40.4423766+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8c94b8f-d2d2-403f-892c-0ca4fa5afb3a">
+    </UnitTestResult>
+    <UnitTestResult executionId="c46dab3f-bfdf-41fc-b7fe-87ab8c6d142b" testId="90ece50f-32a0-305a-c5ba-a5afc86a1422" testName="TestTakeMoney" computerName="BIT" duration="00:00:00.0150708" startTime="2013-11-21T21:46:40.4783786+03:00" endTime="2013-11-21T21:46:40.5383821+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c46dab3f-bfdf-41fc-b7fe-87ab8c6d142b">
+    </UnitTestResult>
+    <UnitTestResult executionId="ffc70bba-7839-4d8f-8587-24f8e809aef7" testId="aaa4be66-c77a-afaf-81fb-d8c9c03b6403" testName="TestInvestFunds" computerName="BIT" duration="00:00:00.0038630" startTime="2013-11-21T21:46:40.5773843+03:00" endTime="2013-11-21T21:46:40.6083861+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffc70bba-7839-4d8f-8587-24f8e809aef7">
+    </UnitTestResult>
+    <UnitTestResult executionId="4e39f557-7628-4d83-a0aa-68519cb02d47" testId="bf980352-5ee3-aeef-e438-339ad2c18c5e" testName="TestTakeFunds" computerName="BIT" duration="00:00:00.0706078" startTime="2013-11-21T21:46:40.6433881+03:00" endTime="2013-11-21T21:46:40.7413937+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e39f557-7628-4d83-a0aa-68519cb02d47">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;15000&gt;. Фактически: &lt;12000&gt;. Wrong takeFunds</Message>
+          <StackTrace>   в TestTPlab4.AccountTest.TestTakeFunds() в D:\forgit\TPlab4\TPlab4\TestTPlab4\AccountTest.cs:строка 51
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

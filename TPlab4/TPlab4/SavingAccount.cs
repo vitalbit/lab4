@@ -8,7 +8,7 @@ namespace TPlab4
     /// <summary>
     /// Class SavingAccount
     /// </summary>
-    class SavingAccount : Account
+    public class SavingAccount : Account
     {
         /// <summary>
         /// interest rate

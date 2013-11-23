@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1ab76188-6c53-4f60-bd4c-696a25f9b22d" name="Виталий@BIT 2013-11-21 21:36:12" runUser="BIT\Виталий" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="43e8f2e4-915d-42ee-9caa-1579fa5403cf">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Виталий_BIT 2013-11-21 21_36_12">
+      <DeploymentItem filename="D:\forgit\TPlab4\TPlab4\TPlab4\bin\Debug\TPlab4.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-21T21:36:12.5874653+03:00" queuing="2013-11-21T21:36:12.7254732+03:00" start="2013-11-21T21:36:12.7514747+03:00" finish="2013-11-21T21:36:14.2355596+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="06ff413b-0a66-1552-5468-5c7c1c1c0d66">
+      <Execution id="2b40286a-7d1e-4d7f-8514-603a6440c2e3" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06ff413b-0a66-1552-5468-5c7c1c1c0d66" executionId="2b40286a-7d1e-4d7f-8514-603a6440c2e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2b40286a-7d1e-4d7f-8514-603a6440c2e3" testId="06ff413b-0a66-1552-5468-5c7c1c1c0d66" testName="TestMethod" computerName="BIT" duration="00:00:00.4084572" startTime="2013-11-21T21:36:12.7904769+03:00" endTime="2013-11-21T21:36:14.1525548+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b40286a-7d1e-4d7f-8514-603a6440c2e3">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;12499&gt;. Фактически: &lt;12500&gt;. Wrong takeFunds</Message>
+          <StackTrace>   в TestTPlab4.AccountTest.TestMethod() в D:\forgit\TPlab4\TPlab4\TestTPlab4\AccountTest.cs:строка 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

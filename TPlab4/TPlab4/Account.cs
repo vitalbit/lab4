@@ -8,7 +8,7 @@ namespace TPlab4
     /// <summary>
     /// Class Account
     /// </summary>
-    class Account
+    public class Account
     {
         /// <summary>
         /// balance

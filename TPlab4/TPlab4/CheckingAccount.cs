@@ -8,7 +8,7 @@ namespace TPlab4
     /// <summary>
     /// Class CheckingAccount
     /// </summary>
-    class CheckingAccount : Account
+    public class CheckingAccount : Account
     {
         /// <summary>
         /// operations counter
@@ -95,11 +95,20 @@ namespace TPlab4
             return base.takeMoney(amount);
         }
         /// <summary>
+        /// add amount of money on the account
+        /// </summary>
+        /// <param name="amount">amount of money</param>
+        public override void addMoney(double amount)
+        {
+            countOperations--;
+            base.addMoney(amount);
+        }
+        /// <summary>
         /// get penalty amount when month is pass
         /// </summary>
         public void monthPass()
         {
-            balance -= (0 - countOperations) * penaltyAmount;
+            if (countOperations < 0) balance -= (0 - countOperations) * penaltyAmount;
             countOperations = maxCountOperations;
         }
     }

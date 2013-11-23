@@ -8,7 +8,7 @@ namespace TPlab4
     /// <summary>
     /// Class TimedMaturityAccount
     /// </summary>
-    class TimedMaturityAccount : SavingAccount
+    public class TimedMaturityAccount : SavingAccount
     {
         /// <summary>
         /// date of pay

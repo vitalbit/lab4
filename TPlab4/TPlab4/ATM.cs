@@ -6,7 +6,7 @@ using System.Text;
 namespace TPlab4
 {
 
-    class ATM
+    public class ATM
     {
         private List<Client> clients;
 

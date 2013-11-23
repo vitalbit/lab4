@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c568959f-bd07-4ec8-9095-fca6748ac0a9" name="Виталий@BIT 2013-11-21 21:34:56" runUser="BIT\Виталий" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="43e8f2e4-915d-42ee-9caa-1579fa5403cf">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Виталий_BIT 2013-11-21 21_34_56">
+      <DeploymentItem filename="D:\forgit\TPlab4\TPlab4\TPlab4\bin\Debug\TPlab4.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-21T21:34:56.4261091+03:00" queuing="2013-11-21T21:35:04.4105658+03:00" start="2013-11-21T21:35:04.8005881+03:00" finish="2013-11-21T21:35:07.5407449+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod" storage="d:\forgit\tplab4\tplab4\testtplab4\bin\debug\testtplab4.dll" id="06ff413b-0a66-1552-5468-5c7c1c1c0d66">
+      <Execution id="e52eeac4-c320-422b-9751-d1b98107526d" />
+      <TestMethod codeBase="D:/forgit/TPlab4/TPlab4/TestTPlab4/bin/Debug/TestTPlab4.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTPlab4.AccountTest, TestTPlab4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06ff413b-0a66-1552-5468-5c7c1c1c0d66" executionId="e52eeac4-c320-422b-9751-d1b98107526d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e52eeac4-c320-422b-9751-d1b98107526d" testId="06ff413b-0a66-1552-5468-5c7c1c1c0d66" testName="TestMethod" computerName="BIT" duration="00:00:00.0627208" startTime="2013-11-21T21:35:05.0336015+03:00" endTime="2013-11-21T21:35:07.3617346+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e52eeac4-c320-422b-9751-d1b98107526d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TPlab4
 {
-    class Client
+    public class Client
     {
         private string login;
         private string password;

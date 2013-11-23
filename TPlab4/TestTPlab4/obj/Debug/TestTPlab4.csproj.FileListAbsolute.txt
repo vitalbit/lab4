@@ -1,0 +1,7 @@
+D:\forgit\TPlab4\TPlab4\TestTPlab4\bin\Debug\TestTPlab4.dll
+D:\forgit\TPlab4\TPlab4\TestTPlab4\bin\Debug\TestTPlab4.pdb
+D:\forgit\TPlab4\TPlab4\TestTPlab4\bin\Debug\TPlab4.exe
+D:\forgit\TPlab4\TPlab4\TestTPlab4\bin\Debug\TPlab4.pdb
+D:\forgit\TPlab4\TPlab4\TestTPlab4\obj\Debug\ResolveAssemblyReference.cache
+D:\forgit\TPlab4\TPlab4\TestTPlab4\obj\Debug\TestTPlab4.dll
+D:\forgit\TPlab4\TPlab4\TestTPlab4\obj\Debug\TestTPlab4.pdb
